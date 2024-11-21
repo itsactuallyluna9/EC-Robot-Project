@@ -1,0 +1,13 @@
+[Unit]
+Description=Robot Project
+
+[Service]
+SyslogIdentifier=robot-project
+User=c4
+Type=simple
+ExecStart=/home/c4/EC-Robot-Project/bin/start_bot.sh
+ExecStopPost=/home/c4/EC-Robot-Project/bin/stop_bot.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

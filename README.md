@@ -11,7 +11,10 @@ Build a robot (in the spirit of FTC Robots) that can pick up and move some objec
 
 ### Supported Controllers
 
-* probably not a wiimote tbh
+* Nintendo Switch Pro Controller
+* XBox 360 Controller
+* DualShock 4 Controller (PS4)
+* DualSense Controller (PS5)
 
 ### Pairing a Controller
 
